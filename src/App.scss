@@ -1,0 +1,12 @@
+@font-face {
+	font-family: 'Marvel';
+	src: url('./assets/Marvel-Regular.otf') format('opentype');
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: 'Marvel';
+	text-transform: uppercase;
+}
