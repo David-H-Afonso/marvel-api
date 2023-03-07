@@ -11,23 +11,17 @@
 <h2>Try it here! 🧾</h2>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e38579a5-0408-43db-bedd-915d66b08ea9/deploy-status)](https://app.netlify.com/sites/marvel-api-dha/deploys)
-![GitHub last commit](https://img.shields.io/github/last-commit/David-H-Afonso/diablo-3-profile-viewer)
+![GitHub last commit](https://img.shields.io/github/last-commit/David-H-Afonso/marvel-api)
 
 <p>👉🏻 https://marvel-api-dha.netlify.app/</p>
 <a href="https://marvel-api-dha.netlify.app/" target="_blank"><img src="https://repository-images.githubusercontent.com/610904153/6453efdf-b87c-41c5-b22a-4a79456a3af4"></a>
 
 <h2>Installation 🛠</h2>
 <h3>Project setup</h3>
-<code>
-yarn install
-
-yarn start
-</code>
+<code>yarn install && yarn start</code>
 
 <h3>Compiles and minifies for production</h3>
-<code>
-yarn build
-</code>
+<code>yarn build</code>
 
 <h2>👨🏻‍💻About me🔥</h2>
 <p>✨ Always learning ✨</p>
