@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+<p align="center"><img width="300px" src="https://comprarcomics.es/wp-content/uploads/2020/12/Marvel-comics.png"></p>
+<h1 align="center">⚡ Marvel API 🕷️</h1>
+<p>Web app developed consuming <a href="https://developer.marvel.com/docs">Marvel API</a>, an entertaiment worldwide enterprise. In this web site, you can check some characters, series and comics! (limited by the API itself) Give it a try in the link down below</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3>Main technologies used 👷🏻‍♂️</h3>
+<ul>
+  <li>⚛️ React.JS</li>
+  <li>☕ JavaScript and API</li>
+  <li>🎨 HTML & CSS using Sass</li>
 
-## Available Scripts
+<h2>Try it here! 🧾</h2>
 
-In the project directory, you can run:
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e38579a5-0408-43db-bedd-915d66b08ea9/deploy-status)](https://app.netlify.com/sites/marvel-api-dha/deploys)
+![GitHub last commit](https://img.shields.io/github/last-commit/David-H-Afonso/diablo-3-profile-viewer)
 
-### `npm start`
+<p>👉🏻 https://marvel-api-dha.netlify.app/</p>
+<a href="https://marvel-api-dha.netlify.app/" target="_blank"><img src="https://repository-images.githubusercontent.com/610904153/6453efdf-b87c-41c5-b22a-4a79456a3af4"></a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h2>Installation 🛠</h2>
+<h3>Project setup</h3>
+<code>
+yarn install
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+yarn start
+</code>
 
-### `npm test`
+<h3>Compiles and minifies for production</h3>
+<code>
+yarn build
+</code>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h2>👨🏻‍💻About me🔥</h2>
+<p>✨ Always learning ✨</p>
 
-### `npm run build`
+<p> My name is David and I am a web developer. I love what I do and I always try to stay up-to-date, being organized and proactive. I believe that what defines me the most is my constant drive to stay updated and learn new things every single day.</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p>I am a web and mobile developer with experience in JavaScript, HTML and CSS. My main focus is in libraries like React.js and React Native, and I have also worked with Vue and Angular. My experience in agile methodologies like SCRUM and using version control with Git allows me to efficiently develop high-quality apps. However, what sets me apart is my ability to work in a team proficiently and my passion for learning. My ability to communicate and collaborate with other team members enables me to make significant contributions to successful projects. And what defines me the most is my constant need to learn and improve, giving my best every day. 🚀✨👨‍💻</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p>You can find me on my <a href="https://www.linkedin.com/in/david-hormiga-afonso/" target="_blank">LinkedIn</a> and <a href="https://github.com/David-H-Afonso" target="_blank">GitHub</a></p>
