@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { URL_ALL_COMICS } from '../../utils/api_url'
-import ComicsCard from './ComicsCard'
+import Card from '../Card/Card'
+import '../../assets/CardLists.scss'
 
 const Comics = (props) => {
 	const [comics, setComics] = useState([])
@@ -10,16 +11,18 @@ const Comics = (props) => {
 	}, [])
 
 	const fetchComics = async () => {
-		const response = await fetch(`${URL_ALL_COMICS}&limit=5`).then((res) => res.json())
+		const response = await fetch(`${URL_ALL_COMICS}&offset=25&limit=12`).then((res) => res.json())
 		setComics(response)
 	}
 
 	return (
-		<div>
-			<p>Comics</p>
-			{comics?.data?.results?.map((comic) => (
-				<ComicsCard comic={comic} key={comic.id} />
-			))}
+		<div className='mainWrapper'>
+			<h1>Comics</h1>
+			<div className='mainContainer'>
+				{comics?.data?.results?.map((comic) => (
+					<Card info={comic} title={comic.title} description={comic.description} key={comic.id} />
+				))}
+			</div>
 		</div>
 	)
 }
