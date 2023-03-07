@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { URL_ALL_CHARACTERS } from '../../utils/api_url'
 import CharacterCard from './CharacterCard'
 
-const Home = (props) => {
+const Characters = (props) => {
 	const [characters, setCharacters] = useState([])
 
 	useEffect(() => {
@@ -24,4 +24,4 @@ const Home = (props) => {
 	)
 }
 
-export default Home
+export default Characters
