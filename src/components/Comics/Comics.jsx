@@ -15,12 +15,22 @@ const Comics = (props) => {
 		setComics(response)
 	}
 
+	const navigateToComic = (info) => {
+		window.open(info?.urls[0]?.url, '_blank')
+	}
+
 	return (
 		<div className='mainWrapper'>
 			<h1>Comics</h1>
 			<div className='mainContainer'>
 				{comics?.data?.results?.map((comic) => (
-					<Card info={comic} title={comic.title} description={comic.description} key={comic.id} />
+					<Card
+						info={comic}
+						title={comic.title}
+						description={comic.description}
+						key={comic.id}
+						goToDetails={navigateToComic}
+					/>
 				))}
 			</div>
 		</div>
