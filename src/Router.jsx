@@ -1,4 +1,5 @@
 import { createBrowserRouter } from 'react-router-dom'
+import { charactersURL, comicsURL, homeURL, noPageURL, seriesURL } from './utils/routes'
 
 import Home from './components/Home/Home'
 import Characters from './components/Characters/Characters'
@@ -8,23 +9,23 @@ import Series from './components/Series/Series'
 
 const Router = [
 	{
-		path: '/',
+		path: homeURL,
 		element: <Home />,
 	},
 	{
-		path: '/characters',
+		path: charactersURL,
 		element: <Characters />,
 	},
 	{
-		path: '/comics',
+		path: comicsURL,
 		element: <Comics />,
 	},
 	{
-		path: '/series',
+		path: seriesURL,
 		element: <Series />,
 	},
 	{
-		path: '*',
+		path: noPageURL,
 		element: <NoPage />,
 	},
 ]
