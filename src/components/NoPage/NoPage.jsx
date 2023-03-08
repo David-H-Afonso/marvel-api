@@ -1,10 +1,14 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import '../../assets/CardLists.scss'
 
 const NoPage = (props) => {
 	return (
-		<div>
-			<p>No page found</p>
-			<a href='/'>Return to Home</a>
+		<div className='mainWrapper'>
+			<h1>Page not found</h1>
+			<Link style={{ textDecoration: 'underline red', color: 'white', fontSize: '3rem', fontFamily: 'Marvel' }} to='/'>
+				Return to Home
+			</Link>
 		</div>
 	)
 }
