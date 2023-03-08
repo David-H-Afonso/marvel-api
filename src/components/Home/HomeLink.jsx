@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Card = (props) => {
+const HomeLink = (props) => {
 	const { title, description, image, link } = props
 
 	return (
@@ -13,4 +13,4 @@ const Card = (props) => {
 	)
 }
 
-export default Card
+export default HomeLink
