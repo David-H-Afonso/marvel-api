@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect } from 'react'
 import { URL_ALL_SERIES } from '../../utils/api_url'
 import Card from '../Card/Card'
